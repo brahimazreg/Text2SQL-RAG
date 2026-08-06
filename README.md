@@ -62,7 +62,7 @@ User Question
 Final Answer
 
 ---
- User Input  │  🔍 Retrieval  │  🤖 LLM  │  💾 Database  │  ✅ Validation |
+ 
 
 ## 📁 Project Structure
 
