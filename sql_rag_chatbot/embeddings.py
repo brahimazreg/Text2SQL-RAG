@@ -1,11 +1,11 @@
 from sql_rag_chatbot import config
 from langchain_community.vectorstores import FAISS
-
-
-
+import os
 from google import genai
 from sql_rag_chatbot import config
 
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 client = genai.Client(
     api_key=config.GEMINI_API_KEY)
 

@@ -1,9 +1,7 @@
 import os
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
 
-from langchain_community.utilities import SQLDatabase
-import pyodbc
+
 
 load_dotenv()
 
@@ -12,8 +10,8 @@ GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
 
 # Connect database variable
 CONNECTION_STRING = (
-    "mssql+pyodbc://sa:user123@HOMEPC,1433/Chinook"
-    "?driver=ODBC+Driver+17+for+SQL+Server"
+    "mssql+pyodbc://sa:user123@host.docker.internal:1433/Chinook"
+    "?driver=ODBC+Driver+18+for+SQL+Server"
     "&TrustServerCertificate=yes"
 )
 # Prompt

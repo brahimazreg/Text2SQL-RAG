@@ -92,7 +92,7 @@ Text2SQL-RAG/
 
 ## 🚀 Installation
 
-git clone https://github.com/yourusername/Text2SQL-RAG.git
+git clone https://github.com/brahimazreg/Text2SQL-RAG.git
 
 cd Text2SQL-RAG
 
